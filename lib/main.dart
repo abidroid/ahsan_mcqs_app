@@ -1,4 +1,5 @@
 import 'package:ahsan_mcqs_app/screens/quiz_screen.dart';
+import 'package:ahsan_mcqs_app/screens/start_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const QuizScreen()
+      home: const StartScreen()
     );
   }
 }
